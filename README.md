@@ -4,6 +4,13 @@
 [https://holidays-frontend-ashen.vercel.app](https://holidays-frontend-ashen.vercel.app)
 
 
+## Backend Deployed link
+[https://holidays-backend.onrender.com](https://holidays-backend.onrender.com)
+
+
+**note** --> add api end  `/api/tours`
+
+
 ## Image of the components
 
 ![holidays-frontend-ashen vercel app_(Nest Hub Max)](https://github.com/user-attachments/assets/11b6f713-99c4-4742-a771-c9bbde05035e)
@@ -27,4 +34,9 @@ ntend-ashen vercel app_tours_66a017918751fc2b83387e45(Nest Hub Max)](https://git
 **Run the server**
 `npm run start`
 
+**frontend**
+`cd holidays`
+
+**Run the local**
+`npm run dev`
 
