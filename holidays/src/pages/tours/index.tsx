@@ -18,7 +18,7 @@ const ToursList: React.FC = () => {
   const [tours, setTours] = useState<Tour[]>([]);
 
   useEffect(() => {
-    fetch(`http://localhost:8080/api/tours`)
+    fetch(`https://holidays-backend.onrender.com/api/tours`)
       .then((res) => res.json())
       .then((data) => setTours(data.tours))
       .catch((error) => console.error('Error fetching tours:', error));
